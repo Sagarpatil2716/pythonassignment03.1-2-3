@@ -1,0 +1,8 @@
+# write a python function to sum all numbers in the list
+
+def sum(numbers):
+    total = 0
+    for x in numbers:
+        total += x
+    return total
+print(sum((8,2,3,5,7)))
